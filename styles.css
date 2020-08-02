@@ -1,0 +1,57 @@
+*{
+    font-family: sans-serif;
+    background-color: white;
+    border-style: dashed;
+    border-color: black;
+}
+nav{
+    max-width: inherit;
+    margin: auto;
+    padding: 10px 0;
+    margin-right: 0%;
+}
+nav ul{
+    text-align: right;
+    display: block;
+}
+nav>ul>li>a{
+    padding: 18px;
+    margin-right: 0;
+    display: block;
+    background-color: sandybrown;
+    color: grey;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+h1{
+    font-family: fantasy;
+    font-style: oblique;
+    font-size: inherit;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+h2{
+    font-family: fantasy;
+    font-style: oblique;
+    font-size: inherit;
+    text-align: center;
+    font-weight: lighter;
+}
+#Home{
+    display: inherit;
+}
+#About{
+    display: inherit;
+    text-align: left;
+    font-family: inherit;
+    font-weight: medium;
+}
+#Services{
+    text-align: justify;
+}
+#Reviews{
+    text-align: justify;
+    text-decoration: inherit;
+    font-size: inherit;
+}
